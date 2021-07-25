@@ -1,6 +1,8 @@
-# frozen_string_literal: true
-
 require 'delivery_router'
+require 'actors/base'
+require 'actors/customer'
+require 'actors/restaurant'
+require 'actors/rider'
 
 describe DeliveryRouter do
   describe '#route' do
